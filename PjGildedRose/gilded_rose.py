@@ -34,7 +34,7 @@ class GildedRose(object):
 
             item.sell_in -= 1  # prazo menor!
 
-            # Regras após expirar
+            #regras depois de expira
             if item.sell_in < 0:
                 if item.name == "Aged Brie":
                     if item.quality < 50:
